@@ -1,0 +1,21 @@
+{
+  "name": "Doable",
+  "short_name": "Doable",
+  "description": "Private tasks, planner, focus timer and habits",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#4772fa",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "New task", "short_name": "Add", "url": "./index.html?a=add", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "Start focus", "short_name": "Focus", "url": "./index.html?a=focus", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "Habits", "short_name": "Habits", "url": "./index.html?a=habits", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]}
+  ]
+}
